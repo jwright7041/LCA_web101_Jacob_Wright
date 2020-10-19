@@ -1,0 +1,46 @@
+Header{
+    width: 850px;
+    height: 450px;
+}
+
+
+.space {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+ 
+.NASA {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-style: bold;
+    transform: translate(-50%, -50%);
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.flex-container{
+    background-color: grey;
+    padding: 20px;
+    height: 324px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 11px;
+    width: 810px;
+}
+
+.block{
+    width: 270px;
+}
+
+.send {
+    background-color: darkgray;
+}
+
+.messageBox {
+    height: 60px
+}
