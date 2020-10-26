@@ -1,0 +1,29 @@
+header {
+    display: grid;
+    grid-template-columns: 1fr 80% 1fr;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.name {
+   grid-column-start: 2;
+   background-color: blue;
+   text-align: center;
+   color: white;
+}
+
+.history {
+    
+}
+
+.contact {
+    background-color: teal;
+    text-align: right;
+}
+
+.list {
+    line-height: 0pt;
+}
