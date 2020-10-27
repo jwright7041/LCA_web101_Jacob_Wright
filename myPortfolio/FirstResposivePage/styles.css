@@ -1,0 +1,182 @@
+@media (min-width: 400px){
+    header{
+        background-color: skyblue;
+        text-align: center;
+        color: white;
+        height: 300px;
+        line-height: 300px;
+        font-size: 20px;
+    }
+
+    main {
+        display: grid;
+        grid-template-rows: repeat(3, 40px 30px 60px 200px);
+        background-color: rgb(230, 230, 230);
+        color: black;
+    }
+
+    #rectangle1{
+        height: 30px;
+        width: 40%;
+        margin: auto;
+        background: skyblue;
+        grid-row-start: 2;
+    }
+
+    #rectangle2{
+        height: 30px;
+        width: 40%;
+        margin: auto;
+        background: orange;
+        grid-row-start: 6;
+    }
+
+    #rectangle3{
+        height: 30px;
+        width: 40%;
+        margin: auto;
+        background: teal;
+        grid-row-start: 10;
+    }
+
+    #title1{
+        grid-row-start: 3;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #title2{
+        grid-row-start: 7;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #title3{
+        grid-row-start:11;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #text1{
+        grid-row-start: 4;
+        font-size: 20px;
+        text-align: center;
+        width: 40%;
+        margin: auto;
+    }
+
+    #text2{
+        grid-row-start: 8;
+        font-size: 20px;
+        text-align: center;
+        width: 40%;
+        margin: auto;
+    }
+
+    #text3{
+        grid-row-start: 12;
+        font-size: 20px;
+        text-align: center;
+        width: 40%;
+        margin: auto;
+    }
+
+
+}
+
+@media (min-width: 992px){
+    header{
+        background-color: teal;
+        text-align: center;
+        color: white;
+        height: 400px;
+        line-height: 400px;
+        font-size: 40px;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 10% 1fr 1fr 1fr 10%;
+        grid-template-rows: 40px 30px 60px 300px;
+        background-color: black;
+        color: white;
+    }
+    #rectangle1{
+        height: 30px;
+        width: 70%;
+        margin: auto;
+        background: skyblue;
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+
+    #rectangle2{
+        height: 30px;
+        width: 70%;
+        margin: auto;
+        background: orange;
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+
+    #rectangle3{
+        height: 30px;
+        width: 70%;
+        margin: auto;
+        background: teal;
+        grid-column-start: 4;
+        grid-row-start: 2;
+    }
+
+    #title1{
+        grid-column-start: 2;
+        grid-row-start: 3;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #title2{
+        grid-column-start: 3;
+        grid-row-start: 3;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #title3{
+        grid-column-start: 4;
+        grid-row-start: 3;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #text1{
+        grid-column-start: 2;
+        grid-row-start: 4;
+        font-size: 25px;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+
+    #text2{
+        grid-column-start: 3;
+        grid-row-start: 4;
+        font-size: 25px;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+
+    #text3{
+        grid-column-start: 4;
+        grid-row-start: 4;
+        font-size: 25px;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+
+    
+}
+
+
+
