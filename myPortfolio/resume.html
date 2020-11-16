@@ -5,12 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="./resume.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <script src="resume.js"></script>
         <title>My Resume</title>
       </head>
       <body>
           <header>
               <div class = "name">
-                  <h1>Jacob Wright</h1>
+                  <h1 id="name" onclick="nameFade()">Jacob Wright</h1>
               </div>
           </header>
           <main>
@@ -44,12 +46,16 @@
               <div class = "contact">
                   <h2>CONTACTS</h2>
                   <h3>Phone-</h3>
-                  <h4 class="list">(806)-281-7053</h4>
+                  <div class="container">
+                  <h4>(806)-281-7053</h4>
+                  <div class="overlay" onclick="hide(this)"></div>
+                  </div>
                   <h3>Email-</h3>
-                  <h4 class="list">jmwright120@gmail.com</h4>
+                  <h4 class="list">jmwright120@gmail.com</h4> 
                   <h3>Address-</h3>
                   <h4 class="list">518 N Kirby Ave</h4>
                   <h4 class="list">Lubbock, TX</h4>
+                  <img onmouseover="hide(this)" onmouseout="show(this)" src="./myProfilePic.jpg" id="profile-pic" alt="Head shot of Me">
               </div>
           </main>
       </body>

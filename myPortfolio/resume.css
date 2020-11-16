@@ -1,3 +1,4 @@
+
 header {
     display: grid;
     grid-template-columns: 1fr 80% 1fr;
@@ -24,3 +25,32 @@ main {
 .list {
     line-height: 0pt;
 }
+
+img {
+    width: 300px;
+    margin-top: 100px;
+}
+
+.fade{
+    animation: fadeInRight;
+    animation-duration: 2s;
+}
+
+
+.container {
+    position: relative;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    background-color:black;
+  }
+
