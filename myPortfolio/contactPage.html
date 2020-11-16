@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./contactStyle.css">
+    <script src="contactscripts.js"></script>
+</head>
+<body>
+    <form action="results.html" method="GET" enctype="multipart/form-data">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" >
+    </div>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required >
+    </div>
+    <div class="comment">
+        <label for="comments"></label>
+        <textarea maxlength="500" minlength="20" id="comments" name="comments" placeholder="comments"></textarea>
+      </div>
+    <div>
+        How did you hear about me?
+        <div>
+          <label for="classmate">Classmate</label>
+          <input type="checkbox" name="classmate" id="classmate">
+        </div>
+        <div>
+          <label for="Resume Submission">Resume Submission</label>
+          <input type="checkbox" name="Resume Submission" id="Resume Submission">
+        </div>
+        <div>
+          <label for="LinkedIn">LinkedIn</label>
+          <input type="checkbox" name="LinkedIn" id="LinkedIn">
+        </div>
+        <div>
+          <label for="Coding Academy Rec">Coding Academy Rec</label>
+          <input type="checkbox" name="Coding Academy Rec" id="Coding Academy Rec">
+        </div>
+      </div>
+      <div>
+        Would you like to be conacted back?
+        <div>
+          <label for="Yes">Yes</label>
+          <input type="radio" name="contact" id="Yes" value="Yes">
+        </div>
+        <div>
+          <label for="No">No</label>
+          <input type="radio" name="contact" id="No" value="No">
+        </div>
+      </div>
+      <div>
+        <label for="date">Birthdate</label>
+        <input type="date" name="date" id="date" min="2019-06-10">
+      </div>
+      <button type="submit">Submit</button>
+      </form>
+</body>
+</html>

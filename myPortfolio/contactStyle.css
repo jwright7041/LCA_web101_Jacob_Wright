@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    font-size: 25px;
+    background-color: darkcyan;
+}
+
+div{
+    margin: 10px;
+}
+
+.comment{
+    margin: 20px;
+}
