@@ -5,12 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" href="./resume.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+        <script src="resume.js"></script>
         <title>My Resume</title>
       </head>
       <body>
           <header>
               <div class = "name">
-                  <h1 id="name">Jacob Wright</h1>
+                  <h1 id="name" onclick="nameFade()">Jacob Wright</h1>
               </div>
           </header>
           <main>
@@ -29,8 +31,10 @@
                   <h3 Class = "list">Detailer</h3>
                   <h4 Class = "list">-Sort a wide variety of inventory</h4>
                   <h4 Class = "list">-Responsible for merchandising product at various stores</h4>
-                  <h4 Class = "list">-Consistently given additional hours to perform miscellaneous duties at the warehouse</h4>
-                  <h4 Class = "list">-Occasionally called in to work with truck drivers on their route</h4>
+                  <h4 Class = "list">-Consistently given additional hours to perform miscellaneous</h4>
+                  <h4 class = "list">duties at the warehouse</h4>
+                  <h4 Class = "list">-Occasionally called in to work with truck drivers on their </h4>
+                  <h4 class = "list">route</h4>
                   <h2>Starbucks</h2>
                   <h3 Class = "list">Barista</h3>
                   <h4 Class = "list">-Makes and serves beverages such as coffee and tea</h4>
@@ -39,5 +43,20 @@
                   <h4 Class = "list">-Works efficiently with a team of people</h4>
                   <h4 Class = "list">-Maintains a clean and organized workplace</h4>
               </div>
+              <div class = "contact">
+                  <h2>CONTACTS</h2>
+                  <h3>Phone-</h3>
+                  <div class="container">
+                  <h4>(806)-281-7053</h4>
+                  <div class="overlay" onclick="hide(this)"></div>
+                  </div>
+                  <h3>Email-</h3>
+                  <h4 class="list">jmwright120@gmail.com</h4> 
+                  <h3>Address-</h3>
+                  <h4 class="list">518 N Kirby Ave</h4>
+                  <h4 class="list">Lubbock, TX</h4>
+                  <img onmouseover="hide(this)" onmouseout="show(this)" src="./myProfilePic.jpg" id="profile-pic" alt="Head shot of Me">
+              </div>
+          </main>
       </body>
 </html>
